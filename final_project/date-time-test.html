@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> </title>
+</head>
+
+<script>
+		//get day of the week//
+		var dow = document.getElementById('date');
+		var d = new Date();
+		dow.innerHTML = n;
+
+
+		//get time of day//
+		var h = d.getHours();
+		var m = d.getMinutes();
+		var s = d.getSeconds();
+		var tod = document.getElementById('timeofDay').innerHTML=
+		h + ":" + m + ":" + s;
+		var t = setTimeout(startTIme, 500);
+</script>
+
+<body onload="startTime()">
+
+<div id="date"></div>
+<div id="timeofDay"></div>
+
+</body>
+</html>

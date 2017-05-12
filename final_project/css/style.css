@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Cutive+Mono);
+
+body {
+  font: 'Arial', monospace;
+  background-color: #feffef;
+}
+
+a {
+  color: #222;
+}
+
+.wrap {
+  width: 600px;
+  margin: 100px 30px 30px 30px;
+  text-align: left;
+  color: #789922;
+  border: #f0e0d6;
+  background-color: #f0e0d6;
+  border-style: none;
+  border-width: 1px;
+  height: auto;
+  padding: 8px;
+  box-shadow: 1px 1px #d3bfc0;
+}
+
+.anon {
+	color:#117743;
+	float: left;
+}
+
+.subhead {
+	color:#800000;
+	float: left;
+}
+
+.currentDate {
+	color:#800000;
+	float:left;
+}
+
+.currentTime {
+	color:#800000;
+	float:left;
+}
+
+.test {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.box img {
+  width: 14px;
+  height: auto;
+  float: left;
+}
+
+.tab {
+  opacity: 0;
+  float: left;
+}
+
+.extra {
+	display:none;
+}
+
+p:hover .extra {
+	display: inline-block;
+}
